@@ -1,0 +1,10 @@
+<selector xmlns:Android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- 定义按钮按下时的图片 -->
+    <item Android:drawable="@drawable/nav_bottom_item_3" Android:state_pressed="true"/>
+    <!-- 定义按钮默认的图片 -->
+    <item Android:drawable="@drawable/nav_bottom_item_3"/>
+
+
+</selector>

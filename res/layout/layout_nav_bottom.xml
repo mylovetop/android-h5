@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+         xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TabWidget android:id="@android:id/tabs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+    <!--<RadioGroup-->
+            <!--android:id="@+id/bottomRg"-->
+            <!--android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal"-->
+            <!--android:layout_width="fill_parent" android:layout_height="0.0dp"-->
+            <!--android:layout_weight="0.12"-->
+            <!--android:background="@drawable/nav_bottom_bg"-->
+
+            <!-->-->
+
+        <!--<RadioButton-->
+                <!--android:id="@+id/id_nav_bottom_item_1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1.0"-->
+                <!--android:button="@null"-->
+                <!--android:paddingTop="5dp"-->
+                <!--android:paddingBottom="5dp"-->
+                <!--android:checked="true"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:background="@drawable/nav_bottom_normal"-->
+                <!--android:drawableTop="@drawable/nav_bottom_item_1"-->
+                <!--android:text="辨真伪" />-->
+
+        <!--<RadioButton-->
+                <!--android:id="@+id/id_nav_bottom_item_2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1.0"-->
+                <!--android:button="@null"-->
+                <!--android:paddingTop="5dp"-->
+                <!--android:paddingBottom="5dp"-->
+                <!--android:drawableTop="@drawable/nav_bottom_item_2"-->
+                <!--android:background="@drawable/nav_bottom_normal"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:text="拍照辨别" />-->
+
+        <!--<RadioButton-->
+                <!--android:id="@+id/id_nav_bottom_item_3"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1.0"-->
+                <!--android:button="@null"-->
+                <!--android:paddingTop="5dp"-->
+                <!--android:paddingBottom="5dp"-->
+                <!--android:drawableTop="@drawable/nav_bottom_item_3"-->
+                <!--android:background="@drawable/nav_bottom_normal"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:text="领茶样" />-->
+    <!--</RadioGroup>-->
+
+
+    </LinearLayout>
+</TabHost>
